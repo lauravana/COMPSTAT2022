@@ -46,10 +46,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## What are communities of practice? (II)
 
-CoPs are characterized by: being informal (typically), \pause 
-voluntary membership, \pause
+CoPs are characterized by: being informal (typically),  
+voluntary membership, 
 high degree of identification with the group. [@erik2005archetypes;@hoadley2012community]
-\pause  
+  
 
   * Examples: group of researchers working on a similar problem who meet on a regular basis, meetup groups etc.
 
