@@ -14,7 +14,7 @@ header-includes:
   - \usepackage{pifont}
   - \hypersetup{colorlinks=true, urlcolor=cyan}
   - \AtBeginEnvironment{CSLReferences}{\tiny}
-  - \setbeamertemplate{itemizeitem}{$a$}
+  - \setbeamertemplate{itemize items}[circle]
 ---
 
 ```{r setup, include=FALSE}
@@ -24,12 +24,15 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Roadmap
 
 * Communities of practice (CoPs): what are they?
+\newline
 
 * Why are CoPs important and how can they be sustained?
+\newline
 
 * Some CoPs in CompStat and Data Science
+\newline
 
-* Useful guidelines in creating inclusive communities and events
+* Some guidelines in building inclusive communities and events
 
 
 
@@ -72,9 +75,9 @@ More formally: Concept from social or situated learning theory [@lave1991situate
 
 [@wenger2000communities]
 
-  * help to solve problems quickly
+  * help to solve problems quickly \newline
 
-  * develop professional skills
+  * develop professional skills \newline
 
   * set and transfer best practices
 
@@ -82,9 +85,10 @@ More formally: Concept from social or situated learning theory [@lave1991situate
 
 [@wenger2000communities]
 
-  * short-term: help with challenges, access to expertise, confidence, meaningful work, social aspects
+  * **short-term**: help with challenges, access to expertise, confidence, meaningful work, social aspects
+  \newline
   
-  * long-term: personal development, enhanced reputation, professional identity, networking
+  * **long-term**: personal development, enhanced reputation, professional identity, networking
 
 
 
@@ -124,7 +128,7 @@ Tip: Many meetup groups organize joint events, so keep an eye for those to disco
 
 ## Some relevant meetup groups
 
-* R User Local Groups (see all [R Consortium](https://www.r-consortium.org/all-projects/r-user-group-support-program))
+* R User Local Groups (see also [R Consortium](https://www.r-consortium.org/all-projects/r-user-group-support-program))
 
 * [R-Ladies](https://rladies.org/), a world-wide organization to promote gender diversity in the R community
     * offers an online directory of R-Ladies, 
@@ -154,7 +158,7 @@ Tip: Many meetup groups organize joint events, so keep an eye for those to disco
 \includegraphics{figs/RLadiesgroups.png}
     \end{column}
       \end{columns}
-    \caption{Active R User and R-Ladies groups, \href{https://benubah.github.io/r-community-explorer/rugs.html}{Dashboard by Ben Ubah}}
+    \caption{Active R User and R-Ladies Groups, \href{https://benubah.github.io/r-community-explorer/rugs.html}{Dashboard by Ben Ubah}}
     \end{figure}
 \vspace{-3em}
 
@@ -170,6 +174,13 @@ Tip: Many meetup groups organize joint events, so keep an eye for those to disco
 
 ## Thank you!
 
-Slides are available at:
+
+Laura Vana-Gür (TU Wien, R-Ladies Vienna Chapter)
+
+Email: laura.vana.guer@tuwien.ac.at \newline
+Github: https://github.com/lauravana \newline
+Twitter: \@llauriciu, \@RLadiesVienna 
+
+Slides are available at: https://github.com/lauravana/COMPSTAT2022
 
 ## References

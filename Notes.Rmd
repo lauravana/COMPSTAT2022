@@ -1,0 +1,189 @@
+---
+title: 'Notes: Communities of practice'
+author: "Laura Vana"
+date: '2022-08-23'
+output: html_document
+bibliography: refs.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## What are communities of practice?
+
+* **Community of practice** -- concept from social or situated learning theory [@lave1991situated,@brown1991organizational,@orr1990sharing,@constant1987social]
+
+* Views on learning: 
+  
+  * Cognitive view: learning is a property of individuals and the representations in their heads
+  
+  * Situated view: learning is a relational property of individuals in context and in interaction with one another
+
+
+### Definitions
+
+  * **feature-based definition**: *a community that shares practices* [@hoadley2012community]
+    
+    * knowledge, and therefore learning, is embedded in cultural practices
+    * natural "range" or spread of knowledge can be described by looking at 
+    communities of people who share practices
+    * practice identifies knowledge of something people do (as part of their 
+    culture, profession, avocations) but it is not enough to specify where knowledge lives,
+    because disconnected groups may share a practice or even a set of practices, 
+    but if they are not in contact the meanings of those practices will not be the same
+    * *knowledge equals practice in authentic contexts by communities* and is 
+    a property lying somewhere between individuals and cultures, 
+    involving practices in context [@lave1991situated].
+    
+
+* **process-based definition**: communities of
+practice are groups in which a constant process of legitimate peripheral
+participation takes place [@lave1991situated]
+
+  * Through legitimate peripheral participation, learners enter a community and gradually take up its practices. 
+    * Initially, people may participate in tangential way. 
+    * Over time, they take up
+more and more of the identity of group membership and centrality, and
+more and more of the central practices of the group.
+
+  * Implications:
+    
+    * learners must have access to experts, and must either perceive themselves to be members or aspire to membership in a community in which expert practices are central
+    
+    * if learners are to enculturate themselves by joining a community of practice, it must already exist, with some sort of common history and an identity
+    
+    * there must be space for legitimate peripheral participation
+
+## CoPs vs. other knowledge communities
+
+* *knowledge-building community* is intentional, that is, the goal of the community is explicitly on learning and building knowledge
+
+* A CoP that occurs naturally will not typically have a learning goal; these will emerge depending on the evolution of the community’s function and role within society.
+
+* Once a knowledge-building community is up and running, it does constitute a community of practice Hoadley and Kilner (2005)
+
+* @erik2005archetypes found two correlated sets of characteristics that he used to produce two key dimensions of variability among knowledge communities:
+ 
+  * connectivity i.e., degree of social connectedness of the members, primarily relying on identity and degree of interaction
+  
+  * institutionalization i.e., contract value (deliverables), shared purpose, defined membership, composition, and formalization
+  
+  * He finds 5 clusters of knowledge communities:
+    
+    *  low connectivity and institutionalization: interest groups
+    
+    * moderate connectivity but low institutionalization: informal networks,networks of professionals
+    
+    *  high connectivity but low institutionalization: informal communities and most CoPs
+    
+    *  high connectivity, high institutionalization: strategic communities, corporate project teams, school-based knowledge-building community
+    
+    * low connectivity and high institutionalization: participants in a formal Delphi process, in which cycles of surveys and summaries are used to construct a common consensus among experts without significant person-to-person contact
+
+*  The biggest differences between knowledge-building communities and communities of practice is the degree to which the core practice or value of the community is a learning practice as opposed to some other authentic professional or livelihood- related practice. [@hoadley2012community]
+
+## Key processes identified as producing and sustaining communities of practice
+
+* @hoadley2005using identify three areas of technology affordance relevant to communities of practice:
+  
+  * content: representational abilities of technology, including the ability to store and manipulate information in a variety of formats, to transmit representations across distance or allow time-shifting, and the ability to support human representational capacity.
+
+  * process:  scaffold a particular task, activity, or sequence of actions
+  
+  * context: ability of technology to shift the social context of the user (e.g., social networking tool may allow someone to communicate with a much broader audience than face-to-face communication)
+
+
+* Techniques in which technology is used to foster a learning-oriented community of practice (following C4P model of communities of practice identified in @hoadley2005using --  structure of an online community of practices as consisting of four factors: **content**, **conversation**, **connections**, and **information context**).
+
+  1. **connections** -- linking people with others who have similar practices (improve connectivity): social networking, locating other people who share similar practices (important for novice or peripheral participants),  corporate directories or profiles
+  
+  2.  **content** -- shared repository of information resources (information that is used by the community in its practices)
+  
+  3. **conversation** -- supporting communication by providing tools for discussing with others: bulletin board, comments on blog posts, a password-protected blog for members of a professional association, to an online videoconferencing tool used for informal consultation among doctors on difficult medical cases
+
+  4. **information context** -- providing awareness in a community of the information context of various resources (e.g., history in a tool like Wikipedia might provide information about how an encyclopedia entry came into being)
+
+## Community composition
+
+https://wenger-trayner.com/project/levels-of-participation/
+
+* **Core group**: a relatively small group of people whose passion and engagement energize and nurture the community. E.g., organizers, leaders
+
+* **Active participants**: members who are recognized as practitioners and define the community (though they may not be of one mind as to what the community is about).
+ E.g., leaders (RLadies Global), experts, speakers
+
+* **Occasional participants**: members who only participate when the topic is of special interest, when they have some specific to contribute, or when they are involved in a project related to the domain of the community
+
+* **Peripheral participants**: people who have a sustained connection to the community, but with less engagement and authority, either because they are still newcomers or because they do not have as much personal commitment to the practice. These people may be active elsewhere and carry the learning to these places. They may experience the community as a network
+
+* **Transactional participants**: outsiders who interact with the community occasionally without being members themselves, to receive or provide a service or to gain access to artifacts produced by the community, such as its publications, its website, or its tools
+
+It is important to note that people move through these categories and that each 
+has different needs and prespectives. It is important to foster involvement of the members and 
+to build a community which allows especially inward mobility.
+
+Examples of people falling into these categories are [@stevens2018building]:
+
+* Absolute and advanced beginners: these are people with the most basic level of knowledge. For them, the motivation to be part of a community is obvious: they want to learn programming and often need rapid assistance to complete their research. The may be peripheral, occasional participants.
+
+<!-- * Competent practitioners: these are people who are already competent in a particular bioinformatics/data science domain. For them, contributing to the community is a good way to reinforce their set of talents. Often, competent practitioners make excellent teachers, as they are able to easily relate to the beginner state of mind. In turn, this increases their learning and teaching skills. -->
+
+* Experts: these are people with the highest experience level on a particular skill. Experts usually reinforce their knowledge by "going back to basics:" it is useful for them to understand what are the usual gotchas for novices. Building a local community of practice provides experts with an opportunity to help novices in a more structural way instead of helping each one individually. They may be occasional or active participants.
+
+![Inspired from https://wenger-trayner.com/project/levels-of-participation/](figs/Community composition.png)
+
+
+## Guidelines for inclusive and welcoming communities and events
+
+1. Code of conduct
+Create a Code of Conduct +
+Do you make people agree to it when they sign up for an event?
+Treat it seriously
+Do people know how to report a violation
+Be clear on what you will do if there is a transgression in the Code of Conduct.
+
+2. Language:
+
+* Watch language, such as gender pronouns and transgender terminology.
+* Watch wording: avouid using terms such as “face-off” or a “battle” for your events
+(makes the event sound more like a wrestling match)
+
+
+3. Venue & Refreshments
+
+* Choose venues that have accessible alternatives to stairs, such as elevators and ramps.
+* Organize meetings in a relatively quiet environment with a good Internet connection.
+
+* Consider venues that are not centered around alcohol (like bars and pubs).
+*  Be mindful of different drink: fruit juice, some fizzy drinks (inc diet), water and a range of teas and coffees (maybe some craft beers/ciders and wine too? ).
+* Offer childcare if you can.
+* Gender Neutral Loos? 
+
+4. Time slot
+* Have the event at different times that work for people with children. 
+* Mix and match (evening events are ok, but not always, weekend events can work if you 
+offer childcare)
+
+
+5. Speakers
+* Find a diverse pool of speakers: make sure your network is also balanced
+* Do more outreach + attend other meetups
+* Mix up presentation styles to appeal to all levels
+* Images used in materials should include folks from underrepresented groups
+
+6. Further tips
+
+* Allow a way for people to opt out of being photographed
+* Create an FAQ. Beginners like FAQs. Link to one on your Meetup.com group page.
+* Consider no speaker questions?
+* Keep track of stats!!! (participants, who returns, engage community through surveys
+etc.) :-)
+* advertise: Twitter, Slack workspaces, Linkedin, local mailing lists, use these channels regularly
+* Send meeting notifications in advance and frequently enough; schedule the meetings well in advance; try to stay consistent in general with day, time, and place to help people remember them.
+* If you ask members to self rate their proficiency in the topic, 
+make sure you clearly what each level means or what they should be able to do 
+in each level.
+
+
+## References
